@@ -53,7 +53,7 @@ public class Tarefa {
 
     
     private boolean isPrioridadeValida(int prioridade) {
-        return prioridade >= 1 && prioridade <= 5;
+        return prioridade >= 1 & prioridade <= 5;
     }
 
     o
